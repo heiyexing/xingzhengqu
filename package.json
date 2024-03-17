@@ -1,0 +1,23 @@
+{
+  "name": "xingzhengqu",
+  "version": "2024.3.17",
+  "description": "",
+  "files": [
+    "data",
+    "src"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@turf/turf": "^6.5.0",
+    "coordtransform": "^2.1.2",
+    "geobuf": "^3.0.2",
+    "pbf": "^3.2.1",
+    "turf": "^3.0.14"
+  }
+}
