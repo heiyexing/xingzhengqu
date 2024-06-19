@@ -8,20 +8,20 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "generate-geojson": "node ./src/geojson.js",
-    "generate-pbf": "node ./src/pbf.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./src/build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@turf/turf": "^6.5.0",
+    "async": "^3.2.5",
     "coordtransform": "^2.1.2",
-    "geobuf": "^3.0.2",
-    "pbf": "^3.2.1",
-    "turf": "^3.0.14",
     "fs-extra": "^11.2.0",
-    "lodash": "^4.17.21"
+    "geobuf": "^3.0.2",
+    "lodash": "^4.17.21",
+    "pbf": "^3.2.1",
+    "prettier": "^3.3.2",
+    "turf": "^3.0.14"
   }
 }
