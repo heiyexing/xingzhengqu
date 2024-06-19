@@ -32,6 +32,9 @@ const transformWGS84ToGCJ02 = (geoJson) => {
   return newGeoJson;
 };
 
+fs.ensureDirSync(path.resolve(__dirname, "../data/wgs84"));
+fs.ensureDirSync(path.resolve(__dirname, "../data/gcj02"));
+
 async.mapLimit(
   fs.readdirSync(path.resolve(__dirname, "./data")),
   1,
